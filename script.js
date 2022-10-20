@@ -8,7 +8,7 @@ function getCurrentTime(){
   document.getElementById("sec").innerHTML = time[2];
   document.getElementById("timezone").innerHTML = d[5];
   document.getElementById("weekday").innerHTML = d[0];
-  document.getElementById("date").innerHTML = d[1] + " " + d[2] + ", " + d[3]
+  document.getElementById("date").innerHTML = d[1] + " " + d[2] + ", " + d[3];
 }
 
 function switchColor(col){
@@ -22,9 +22,9 @@ function switchColor(col){
 
 function init(){
   setInterval(getCurrentTime, 100);
-  document.getElementById("red").style.backgroundColor = "red"
-  document.getElementById("blue").style.backgroundColor = "blue"
-  document.getElementById("green").style.backgroundColor = "green"
-  document.getElementById("orange").style.backgroundColor = "orange"
-  document.getElementById("gray").style.backgroundColor = "gray"
+  document.getElementById("red").style.backgroundColor = "red";
+  document.getElementById("blue").style.backgroundColor = "blue";
+  document.getElementById("green").style.backgroundColor = "green";
+  document.getElementById("orange").style.backgroundColor = "orange";
+  document.getElementById("gray").style.backgroundColor = "gray";
 }
