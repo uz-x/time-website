@@ -1,5 +1,7 @@
 ![banner](https://user-images.githubusercontent.com/111834874/196954290-a0fa87cd-a04e-4643-8137-f5ce8e8b1208.png)
 
+# What is Time 24/7?
+Time 24/7 (time.hrant.repl.co) is a kind of modern website that shows the time in your current timezone 24/7.
 
 # How to edit
 This project uses the `Date()` function of JavaScript which should return:  
