@@ -31,8 +31,14 @@ These colors are buttons that you can click to change the colors of the clock:
 To create a new color, copy paste one of the already made colors and replace the ID to the CSS name of the color, and make sure that same color also has a dark version with the syntax `dark[COLOR]`.
 
 ```html
-ADD SOURCE CODE
+<!-- Old -->
+<input type="button" id="red" class="colorb" onclick="switchColor(this.id)"/>
+
+<!-- New -->
+<input type="button" id="purple" class="colorb" onclick="switchColor(this.id)"/>
 ```
+
+^ (The color purple isn't in the official release)
 
 And in the `script.js` file, find the `init()` function and copy paste one of the scripts where it sets the buttons `backgroundColor` to the correct color.
 
