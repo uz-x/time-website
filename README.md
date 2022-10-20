@@ -43,7 +43,11 @@ To create a new color, copy paste one of the already made colors and replace the
 And in the `script.js` file, find the `init()` function and copy paste one of the scripts where it sets the buttons `backgroundColor` to the correct color.
 
 ```js
-ADD SOURCE CODE
+// Old
+document.getElementById("red").style.backgroundColor = "red";
+
+// New
+document.getElementById("purple").style.backgroundColor = "purple";
 ```
 
 No CSS work needed as the JavaScript automates everything.
