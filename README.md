@@ -40,7 +40,7 @@ ADD SOURCE CODE
 
 No CSS work needed as the JavaScript automates everything.
 
-# <table> Info
+# `<table>` Info
 
 ## Adding new info
 
