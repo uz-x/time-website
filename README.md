@@ -3,6 +3,7 @@
 # What is Time 24/7?
 Time 24/7 (time.hrant.repl.co) is a kind of modern website that shows the time in your current timezone 24/7.
 
+# Warning: Terrible code
 # How to edit
 This project uses the `Date()` function of JavaScript which should return:  
 ```
