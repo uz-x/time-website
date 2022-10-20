@@ -54,7 +54,7 @@ Make sure the second `<td>` has an ID.
 
 In the `script.js` file, find the `setInterval()` function which should look something like this.
 ```js
-var i = setInterval(getCurrentTime, 50);
+setInterval(getCurrentTime, 50);
 ```
 The `50` defines the millisecond amount to update. (In this case, the time updates every 50ms.)  
 You can change the number to make it update faster/slower.
